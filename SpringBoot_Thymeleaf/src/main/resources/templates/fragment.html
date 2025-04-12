@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Fragment Tags</title>
+</head>
+<body>
+
+<h1>Hey this is fragment page</h1>
+<div th:replace="~{header::D_header(21,Thane,${date})}"></div>
+
+</body>
+</html>
