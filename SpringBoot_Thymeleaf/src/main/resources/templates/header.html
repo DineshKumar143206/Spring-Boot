@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Header Template</title>
+</head>
+<body>
+<header th:fragment="D_header(age,city,date)">
+<div class = "container" >
+<h2> Hello Welcome to this page</h2>
+<h2> My Name is <span th:text="${name}"> </span></h2>
+<h3>My age is <span th:text="${age + ' and Im from ' + city}"></span></h3>
+<h3> Today's date and time is <span th:text="${date}"></span></h3>
+</div>
+</header>
+</body>
+</html>
