@@ -1,0 +1,70 @@
+body{
+	background: lavender;
+}
+/* navbar */
+
+.bg{
+ 	background: #bd3c14;	
+}
+
+/* home */
+
+.banner{
+	width: 100%;
+	height: 92vh;
+	background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.7)) ,url(../images/home.png);
+	background-size: cover;
+	color:lavender;
+	display: flex; 
+	justify-content: flex-end; 
+	align-items: top;
+}
+
+.font-weight-bold{
+	margin-right: 40px;
+	margin-top: 30px;
+}
+
+.text-right{
+	margin-right: 40px;
+}
+
+.btn.btn-lg{
+	margin-left: 320px;
+	background-color: #bd3c14;
+	color: white;
+}
+
+/* Register */
+
+.my-card{
+
+	padding: 20px;
+	background-color: white;
+	border-radius: 20px;
+	margin-bottom: 20px;	
+}
+
+.img-register{
+	width: 50px;
+	margin-top: 30px;
+	margin-right: 15px;
+	margin-left: 30px;
+}
+
+.btn.bg-warning{
+	color: black;
+}
+
+.btn.bg-primary{
+	color: white;
+	margin-left:20px;
+}
+
+
+
+
+
+
+
+
